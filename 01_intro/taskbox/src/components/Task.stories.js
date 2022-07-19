@@ -10,7 +10,7 @@
      * Story
  */
 
-import Tasks from './Tasks';
+import Task from './Task';
 
 /**
  * To tell Storybook about the component we are documenting, we
@@ -19,8 +19,8 @@ import Tasks from './Tasks';
    * 2) the title (how to identify the component in Storybook's sidebar)
  */
 export default {
-  component: Tasks,
-  title: 'Tasks'
+  component: Task,
+  title: 'Task'
 };
 
 /**
@@ -31,7 +31,7 @@ export default {
  * BEST PRACTICE: Using a Template variable will reduce the amount of
  * code you need to write and maintain.
  */
-const Template = args => <Tasks {...args} />;
+const Template = args => <Task {...args} />;
 
 
 /**
