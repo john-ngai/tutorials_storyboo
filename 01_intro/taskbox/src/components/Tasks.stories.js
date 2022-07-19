@@ -31,7 +31,7 @@ export default {
  * BEST PRACTICE: Using a Template variable will reduce the amount of
  * code you need to write and maintain.
  */
-const Template = args => <Task {...args} />;
+const Template = args => <Tasks {...args} />;
 
 
 /**
